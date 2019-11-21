@@ -116,7 +116,8 @@ nav a:active{
     width: 300px;
 }
 
-#galery_block .galery .tag{
+#galery_block .galery a{
+    display: block;
     background: #4aaaa5;
     width:300px;
     font-size: 24px;
@@ -124,11 +125,14 @@ nav a:active{
     color:#ffffff;
     padding-top:10px;
     padding-bottom:10px;
+    float:  left;
     position: absolute;
     bottom:10px;
+    text-decoration: none;
 }
 
-#galery_block .galery .tag:hover{
+
+#galery_block .galery a:hover{
     transition:1s;
     background: black;
 }
@@ -155,6 +159,7 @@ nav a:active{
 #contact #submit_button:hover{
     transition:1s;
     background: black;
+    cursor: pointer;
 }
 
 #contact #contact_message{
